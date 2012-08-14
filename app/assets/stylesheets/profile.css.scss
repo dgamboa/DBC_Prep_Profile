@@ -1,0 +1,32 @@
+// Place all the styles related to the profile controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+    font-family: 'NeoRetroDrawRegular';
+    src: url('NEORD___-webfont.eot');
+    src: url('NEORD___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NEORD___-webfont.woff') format('woff'),
+         url('NEORD___-webfont.ttf') format('truetype'),
+         url('NEORD___-webfont.svg#NeoRetroDrawRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-image: url("irongrip.png");
+	text-align: center;
+}
+
+h1 {
+font-family: "NeoRetroDrawRegular";
+font-size: 75px;
+color: black;
+}
+
+p {
+font-size: 20px;
+width: 400px;
+margin: auto;
+}
