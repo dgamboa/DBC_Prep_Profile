@@ -3,6 +3,18 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @font-face {
+    font-family: 'SansationLight';
+    src: url('Sansation_Light-webfont.eot');
+    src: url('Sansation_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Sansation_Light-webfont.woff') format('woff'),
+         url('Sansation_Light-webfont.ttf') format('truetype'),
+         url('Sansation_Light-webfont.svg#SansationLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'NeoRetroDrawRegular';
     src: url('NEORD___-webfont.eot');
     src: url('NEORD___-webfont.eot?#iefix') format('embedded-opentype'),
@@ -11,22 +23,52 @@
          url('NEORD___-webfont.svg#NeoRetroDrawRegular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
 	background-image: url("irongrip.png");
-	text-align: center;
+	align: center;
 }
 
 h1 {
-font-family: "NeoRetroDrawRegular";
-font-size: 75px;
-color: black;
+	font-family: "NeoRetroDrawRegular";
+	font-size: 75px;
+	color: black;
+	line-height: 25px;
+	text-align: center;
+}
+
+h2 {
+	font-family: "NeoRetroDrawRegular";
+	font-size: 46px;
+	color: black;
+	line-height: 20px;
+	text-align: center;
 }
 
 p {
-font-size: 20px;
-width: 400px;
-margin: auto;
+	font-family: "SansationLight";
+	font-size: 16px;
+	color: #FFFF00;
+	line-height: 25px;
+}
+
+#title {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#pic {
+	float: left;
+	position: relative;
+	left: 386px;
+	border: 2px solid #101010;
+}
+
+#intro {
+	text-align: right;
+	width: 350px;
+	margin: auto;
+	position: relative;
+	left: 10px;
 }
