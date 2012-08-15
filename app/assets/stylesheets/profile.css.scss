@@ -60,15 +60,17 @@ p {
 
 #pic {
 	float: left;
-	position: relative;
-	left: 386px;
+	margin-left: 400px;
+	height: 287px;
 	border: 2px solid #101010;
 }
 
 #intro {
-	text-align: right;
-	width: 350px;
-	margin: auto;
-	position: relative;
-	left: 10px;
+	margin-left: 49%;
+	width: 24%;
+	text-align: justify;
+}
+
+#1 {
+	width: 25%;
 }
