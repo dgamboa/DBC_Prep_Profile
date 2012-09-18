@@ -53,6 +53,12 @@ p {
 	line-height: 25px;
 }
 
+#container {
+	width: 960px;
+	align: center;
+	margin-left: 17%;
+}
+
 #title {
 	width: 960px;
 	margin: 0 auto;
@@ -60,17 +66,17 @@ p {
 
 #pic {
 	float: left;
-	margin-left: 400px;
+	margin-left: 150px;
+	margin-top: 25px;
+	width: 250px;
 	height: 287px;
 	border: 2px solid #101010;
 }
 
 #intro {
-	margin-left: 49%;
-	width: 24%;
+	float: right;
+	margin-right: 170px;
+	margin-top: 23px;
+	width: 320px;
 	text-align: justify;
-}
-
-#1 {
-	width: 25%;
 }
