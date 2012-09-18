@@ -48,9 +48,9 @@ h2 {
 
 p {
 	font-family: "SansationLight";
-	font-size: 16px;
-	color: #FFFF00;
-	line-height: 25px;
+	font-size: 15px;
+	color: #EEEEEE;
+	line-height: 23px;
 }
 
 #container {
@@ -67,7 +67,7 @@ p {
 #pic {
 	float: left;
 	margin-left: 150px;
-	margin-top: 25px;
+	margin-top: 50px;
 	width: 250px;
 	height: 287px;
 	border: 2px solid #101010;
@@ -76,7 +76,38 @@ p {
 #intro {
 	float: right;
 	margin-right: 170px;
-	margin-top: 23px;
+	margin-top: 42px;
 	width: 320px;
 	text-align: justify;
+}
+
+footer {
+	clear: both;
+	margin-left: 30px;
+	font-family: "SansationLight";
+	font-size: 13px;
+  padding-top: 42px;
+  color: #999;
+}
+
+footer a {
+	text-decoration: none;
+  color: #05EDFF;
+}  
+
+footer a:hover { 
+  color: #1D7CF2;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 125px;
 }
