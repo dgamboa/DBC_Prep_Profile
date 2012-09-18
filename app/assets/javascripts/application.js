@@ -14,3 +14,8 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require_tree .
+
+function hiddenLink() {
+	alert("You've found the hidden link!");
+	window.location = "http://www.dgamboa.com";
+};
