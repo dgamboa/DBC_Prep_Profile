@@ -15,8 +15,14 @@
 //= require bootstrap
 //= require_tree .
 
+function surpriseElement() {
+	var profilePicture = document.getElementById("pic");
+	profilePicture.onclick = function() {
+		alert("You've found the hidden link!");
+		window.location = "http://www.dgamboa.com";
+	};
+};
 
-function hiddenLink() {
-	alert("You've found the hidden link!");
-	window.location = "http://www.dgamboa.com";
+window.onload = function() {
+	surpriseElement();
 };
